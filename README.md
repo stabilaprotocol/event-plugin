@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img align="center" src="https://raw.githubusercontent.com/stabilaprotocol/wiki/master/images/Logo_Stabila_WhiteMetal.png" width="200"/>
+</h1>
+
 # Stabila eventsubscribe plugin
 
 This is an implementation of Stabila eventsubscribe model. 
@@ -188,3 +192,5 @@ filter = {
        ]
     }
 ```
+## Suggestions, Feedback & Issues
+If you have a suggestion for improvement, feedback about a specific feature or any issue please contact us at info@stabilascan.org
