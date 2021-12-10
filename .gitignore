@@ -1,0 +1,16 @@
+.idea
+.gradle/
+.project
+.settings/
+api/.classpath
+api/.project
+api/.settings/
+api/bin/
+api/build/
+app/.classpath
+app/.project
+app/.settings/
+app/bin/
+app/build/
+build/
+plugins/build/
