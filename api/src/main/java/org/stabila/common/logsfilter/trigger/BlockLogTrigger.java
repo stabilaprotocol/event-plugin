@@ -26,19 +26,19 @@ public class BlockLogTrigger extends Trigger {
 
 
   /**
-   * address of witness
+   * address of executive
    */
   @Getter
   @Setter
-  private String witnessAddress;
+  private String executiveAddress;
 
   @Getter
   @Setter
-  private long witnessPayPerBlock;
+  private long executivePayPerBlock;
 
   @Getter
   @Setter
-  Map<String, Long> witnessMap = new HashMap<>();
+  Map<String, Long> executiveMap = new HashMap<>();
 
   public BlockLogTrigger() {
     setTriggerName(BLOCK_TRIGGER_NAME);
@@ -57,12 +57,12 @@ public class BlockLogTrigger extends Trigger {
       .append(transactionSize)
       .append(", transactionList: ")
       .append(transactionList)
-      .append(", witnessAddress: ")
-      .append(witnessAddress)
-      .append(", witnessPayPerBlock: ")
-      .append(witnessPayPerBlock)
-      .append(", witnessMap: ")
-      .append(witnessMap)
+      .append(", executiveAddress: ")
+      .append(executiveAddress)
+      .append(", executivePayPerBlock: ")
+      .append(executivePayPerBlock)
+      .append(", executiveMap: ")
+      .append(executiveMap)
       .toString();
   }
 }
